@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your eReceipt</title>
+</head>
+<body>
+  <h1>Receipt</h1>
+  <pre id="receipt"></pre>
+
+  <div id="emailForm">
+    <input type="email" id="email" placeholder="Enter your email" />
+    <button onclick="submitEmail()">Send Receipt</button>
+  </div>
+
+  <div id="confirmation" style="display: none;">
+    ✅ Receipt sent!
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
